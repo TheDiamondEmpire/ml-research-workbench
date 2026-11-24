@@ -1,0 +1,88 @@
+{
+  "H1": {
+    "R_adj": {
+      "ci_high": 5.45530923091538,
+      "ci_low": 1.820034627633182,
+      "estimate": 3.770175470070043
+    },
+    "rule": "R_adj = S/G_adj; supported if 95% CI lower bound >= 0.5, not supported if upper bound < 0.5, else inconclusive",
+    "verdict": "supported"
+  },
+  "all": {
+    "G_adj": {
+      "ci_high": 0.008666666666666656,
+      "ci_low": 0.0034203406622698397,
+      "estimate": 0.005409848484848434
+    },
+    "G_all": {
+      "ci_high": 0.01548230823863645,
+      "ci_low": 0.0109611544432707,
+      "estimate": 0.013269412878787912
+    },
+    "R_adj": {
+      "ci_high": 5.45530923091538,
+      "ci_low": 1.820034627633182,
+      "estimate": 3.770175470070043
+    },
+    "R_all": {
+      "ci_high": 1.786370902366688,
+      "ci_low": 0.9856231621854348,
+      "estimate": 1.537074642313355
+    },
+    "S": {
+      "ci_high": 0.022232858258755723,
+      "ci_low": 0.013085720051824649,
+      "estimate": 0.020396078054371155
+    },
+    "seeds_per_cell": 20,
+    "share_adjacent_gaps_below_pooled_sd": {
+      "count": 15,
+      "of": 20
+    }
+  },
+  "model_only": {
+    "G_adj": {
+      "ci_high": 0.007675029228277447,
+      "ci_low": 0.005959015460440751,
+      "estimate": 0.006740944218042444
+    },
+    "G_all": {
+      "ci_high": 0.018018919767624656,
+      "ci_low": 0.015577651515151558,
+      "estimate": 0.01731154006291652
+    },
+    "R_adj": {
+      "ci_high": 5.734494885004027e-14,
+      "ci_low": 4.452353594740124e-14,
+      "estimate": 5.06931114874006e-14
+    },
+    "R_all": {
+      "ci_high": 2.19365182513681e-14,
+      "ci_low": 1.8964479623776094e-14,
+      "estimate": 1.973940132037009e-14
+    },
+    "S": {
+      "ci_high": 3.4171943677557405e-16,
+      "ci_low": 3.4171943677557405e-16,
+      "estimate": 3.4171943677557405e-16
+    },
+    "seeds_per_cell": 20,
+    "share_adjacent_gaps_below_pooled_sd": {
+      "count": 7,
+      "of": 20
+    }
+  },
+  "n_datasets": 5,
+  "n_models": 5,
+  "pairwise_significance": {
+    "magnitude_counts": {
+      "large": 20,
+      "medium": 6,
+      "negligible": 11,
+      "small": 13
+    },
+    "pairs": 50,
+    "significant_after_holm": 28,
+    "test": "Wilcoxon signed-rank, paired by seed, Holm within dataset (10 pairs)"
+  }
+}

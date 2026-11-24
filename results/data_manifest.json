@@ -1,0 +1,110 @@
+[
+  {
+    "classes": [
+      "0",
+      "1"
+    ],
+    "columns": 31,
+    "licence": "public (UCI repository)",
+    "name": "breast_cancer",
+    "notes": "categorical features kept as strings; numeric features as float64",
+    "parents": [],
+    "rows": 569,
+    "sha256": "cd1c796fd1753b7ca60a00b1bd4a5adc090c87f69be2ca2e742cedf77bb260a2",
+    "source": "scikit-learn bundled load_breast_cancer (UCI WDBC)",
+    "synthetic": false,
+    "target": "target",
+    "transform": "",
+    "version": "scikit-learn-1.9.1-bundled"
+  },
+  {
+    "classes": [
+      "bad",
+      "good"
+    ],
+    "columns": 21,
+    "licence": "Public",
+    "name": "credit-g",
+    "notes": "categorical features kept as strings; numeric features as float64",
+    "parents": [],
+    "rows": 1000,
+    "sha256": "d8bbc0b04fc9666ba137eed597e3fea84130071ff95c5f1b8037ea58553041f1",
+    "source": "OpenML credit-g v1 (data id 31)",
+    "synthetic": false,
+    "target": "target",
+    "transform": "",
+    "version": "1"
+  },
+  {
+    "classes": [
+      "tested_negative",
+      "tested_positive"
+    ],
+    "columns": 9,
+    "licence": "Public",
+    "name": "diabetes",
+    "notes": "categorical features kept as strings; numeric features as float64",
+    "parents": [],
+    "rows": 768,
+    "sha256": "46ac7926ffdeb05f157cbd5996fe7843aa0b5a2f34132aad64abe45627e32ff8",
+    "source": "OpenML diabetes v1 (data id 37)",
+    "synthetic": false,
+    "target": "target",
+    "transform": "",
+    "version": "1"
+  },
+  {
+    "classes": [
+      "1",
+      "2"
+    ],
+    "columns": 6,
+    "licence": "Public",
+    "name": "phoneme",
+    "notes": "categorical features kept as strings; numeric features as float64",
+    "parents": [],
+    "rows": 5404,
+    "sha256": "0a947305cb4c07b0c82703d749affd1bba6e38cdb8bd23ed9d33f78a07aa40d5",
+    "source": "OpenML phoneme v1 (data id 1489)",
+    "synthetic": false,
+    "target": "target",
+    "transform": "",
+    "version": "1"
+  },
+  {
+    "classes": [
+      "1",
+      "2"
+    ],
+    "columns": 42,
+    "licence": "Public",
+    "name": "qsar-biodeg",
+    "notes": "categorical features kept as strings; numeric features as float64",
+    "parents": [],
+    "rows": 1055,
+    "sha256": "0b359530684245d68b9a95ed72724c3c78175641b7769fbc6a1b963a45566960",
+    "source": "OpenML qsar-biodeg v1 (data id 1494)",
+    "synthetic": false,
+    "target": "target",
+    "transform": "",
+    "version": "1"
+  },
+  {
+    "classes": [
+      "0",
+      "1"
+    ],
+    "columns": 58,
+    "licence": "Public",
+    "name": "spambase",
+    "notes": "categorical features kept as strings; numeric features as float64",
+    "parents": [],
+    "rows": 4601,
+    "sha256": "924b6ed5b038d5436d88b91cf725ed3f19e3512001befcb38bab9974ead8a4ff",
+    "source": "OpenML spambase v1 (data id 44)",
+    "synthetic": false,
+    "target": "target",
+    "transform": "",
+    "version": "1"
+  }
+]

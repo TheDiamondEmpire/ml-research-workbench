@@ -1,0 +1,74 @@
+{
+  "H2": {
+    "ci_high": 0.34271,
+    "ci_low": 0.11959,
+    "estimate": 0.23542000000000005,
+    "rule": "k=1 pairwise disagreement vs disjoint 20-seed reference; supported if CI lower >= 0.2, not supported if CI upper < 0.2, else inconclusive",
+    "verdict": "inconclusive"
+  },
+  "disjoint": {
+    "smallest_k_with_disagreement_at_most_target": 20
+  },
+  "draws_per_k": 1000,
+  "ks": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    10,
+    15,
+    20
+  ],
+  "overlap": {
+    "smallest_k_with_disagreement_at_most_target": 8
+  },
+  "seeds_needed_top2": {
+    "credit-g": {
+      "mean_gap": 0.007600000000000012,
+      "sd_of_paired_diff": 0.018256649833906957,
+      "seeds_needed_80pct_power": 48,
+      "top2": [
+        "rf",
+        "logreg"
+      ]
+    },
+    "diabetes": {
+      "mean_gap": 0.010677083333333327,
+      "sd_of_paired_diff": 0.02554208299008173,
+      "seeds_needed_80pct_power": 47,
+      "top2": [
+        "logreg",
+        "mlp"
+      ]
+    },
+    "phoneme": {
+      "mean_gap": 0.011584011843079205,
+      "sd_of_paired_diff": 0.006827511203448319,
+      "seeds_needed_80pct_power": 5,
+      "top2": [
+        "rf",
+        "lgbm"
+      ]
+    },
+    "qsar-biodeg": {
+      "mean_gap": 0.013257575757575751,
+      "sd_of_paired_diff": 0.01542320210314309,
+      "seeds_needed_80pct_power": 13,
+      "top2": [
+        "mlp",
+        "rf"
+      ]
+    },
+    "spambase": {
+      "mean_gap": 0.0003909643788010342,
+      "sd_of_paired_diff": 0.0030681474865351505,
+      "seeds_needed_80pct_power": 486,
+      "top2": [
+        "lgbm",
+        "hgb"
+      ]
+    }
+  },
+  "target_disagreement": 0.1
+}

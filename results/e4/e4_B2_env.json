@@ -1,0 +1,17 @@
+{
+  "implementation": "CPython",
+  "machine": "AMD64",
+  "packages": {
+    "lightgbm": "4.3.0",
+    "numpy": "1.26.4",
+    "optuna": "not-installed",
+    "pandas": "2.1.4",
+    "pyyaml": "6.0.3",
+    "scikit-learn": "1.4.2",
+    "scipy": "1.12.0"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.13",
+  "threads": "2",
+  "uv_lock_sha256": "41b29602e5609d16c568cb5cc1a48433200c04f95883799baa8c813ab0fceac3"
+}

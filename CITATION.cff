@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Machine Learning Research Workbench"
+type: software
+version: 0.1.0
+abstract: "Reproducible experiments with honest statistics: track, tune, compare and report."
+authors:
+  - name: "The Diamond Empire"
+    website: "https://thedempire.shop/"
+repository-code: "https://github.com/TheDiamondEmpire/ml-research-workbench"
+keywords:
+  - "machine-learning"
+  - "reproducible-research"
+  - "mlops"
+  - "scikit-learn"
+  - "experiment-tracking"
+  - "statistics"
+  - "python"

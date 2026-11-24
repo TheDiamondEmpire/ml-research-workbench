@@ -1,0 +1,268 @@
+{
+  "F_budget": {
+    "ci_high": 0.1805,
+    "ci_low": 0.0965,
+    "estimate": 0.136
+  },
+  "F_budget_boosted": {
+    "estimate": 0.125,
+    "n_pair_scenarios": 500
+  },
+  "F_budget_minus_F_noise": {
+    "ci_high": 0.048,
+    "ci_low": -0.020012500000000003,
+    "estimate": 0.013999999999999997
+  },
+  "F_budget_starved": {
+    "estimate": 0.147,
+    "n_pair_scenarios": 500
+  },
+  "F_noise": {
+    "ci_high": 0.172,
+    "ci_low": 0.07800000000000001,
+    "estimate": 0.12200000000000001
+  },
+  "H3": {
+    "condition_a_flips_exceed_noise": false,
+    "condition_b_budget_effect_at_least_gap": false,
+    "rule": "supported iff (a) CI lower bound of mean(F_budget - F_noise) > 0 AND (b) median |score(30)-score(3)| >= median adjacent-rank gap at budget 10",
+    "verdict": "not supported"
+  },
+  "adjacent_gap_at_reference_budget": {
+    "ci_high": 0.006591918444250056,
+    "ci_low": 0.00298684476145622,
+    "estimate": 0.005255681818181812
+  },
+  "budget_effect_median_abs": {
+    "ci_high": 0.006957809030347928,
+    "ci_low": 0.002432667245873321,
+    "estimate": 0.004166666666666652
+  },
+  "budgets": [
+    3,
+    5,
+    10,
+    20,
+    30
+  ],
+  "max_trials": 30,
+  "mean_test_accuracy_by_model_and_budget": [
+    {
+      "budget": 0,
+      "count": 25,
+      "mean": 0.839711404098678,
+      "model": "hgb",
+      "std": 0.08459287084835802
+    },
+    {
+      "budget": 3,
+      "count": 25,
+      "mean": 0.8410519801117541,
+      "model": "hgb",
+      "std": 0.08278650532653238
+    },
+    {
+      "budget": 5,
+      "count": 25,
+      "mean": 0.8413672664832936,
+      "model": "hgb",
+      "std": 0.0835853675275696
+    },
+    {
+      "budget": 10,
+      "count": 25,
+      "mean": 0.8438032050524064,
+      "model": "hgb",
+      "std": 0.08505919601188779
+    },
+    {
+      "budget": 20,
+      "count": 25,
+      "mean": 0.8446107229231441,
+      "model": "hgb",
+      "std": 0.08323890780164711
+    },
+    {
+      "budget": 30,
+      "count": 25,
+      "mean": 0.8438857819055676,
+      "model": "hgb",
+      "std": 0.08494004931233226
+    },
+    {
+      "budget": 0,
+      "count": 25,
+      "mean": 0.8416875921852178,
+      "model": "lgbm",
+      "std": 0.08420501204527331
+    },
+    {
+      "budget": 3,
+      "count": 25,
+      "mean": 0.8413213781660239,
+      "model": "lgbm",
+      "std": 0.08743620606351306
+    },
+    {
+      "budget": 5,
+      "count": 25,
+      "mean": 0.8423143798016265,
+      "model": "lgbm",
+      "std": 0.08433960305775151
+    },
+    {
+      "budget": 10,
+      "count": 25,
+      "mean": 0.8416160036010305,
+      "model": "lgbm",
+      "std": 0.08483559527367757
+    },
+    {
+      "budget": 20,
+      "count": 25,
+      "mean": 0.8443139080367541,
+      "model": "lgbm",
+      "std": 0.08438175879424162
+    },
+    {
+      "budget": 30,
+      "count": 25,
+      "mean": 0.8442679806395135,
+      "model": "lgbm",
+      "std": 0.08556891719399197
+    },
+    {
+      "budget": 0,
+      "count": 25,
+      "mean": 0.8145940466990443,
+      "model": "logreg",
+      "std": 0.0765534023804691
+    },
+    {
+      "budget": 3,
+      "count": 25,
+      "mean": 0.8136117999044257,
+      "model": "logreg",
+      "std": 0.07781529172219259
+    },
+    {
+      "budget": 5,
+      "count": 25,
+      "mean": 0.8128508839895904,
+      "model": "logreg",
+      "std": 0.07738554269941539
+    },
+    {
+      "budget": 10,
+      "count": 25,
+      "mean": 0.8138206251896009,
+      "model": "logreg",
+      "std": 0.07703906999855989
+    },
+    {
+      "budget": 20,
+      "count": 25,
+      "mean": 0.8141372364367377,
+      "model": "logreg",
+      "std": 0.0772602457799251
+    },
+    {
+      "budget": 30,
+      "count": 25,
+      "mean": 0.8148329792690575,
+      "model": "logreg",
+      "std": 0.07629635113074512
+    },
+    {
+      "budget": 0,
+      "count": 25,
+      "mean": 0.8375153201226627,
+      "model": "mlp",
+      "std": 0.07798440431465409
+    },
+    {
+      "budget": 3,
+      "count": 25,
+      "mean": 0.8399418183395693,
+      "model": "mlp",
+      "std": 0.07464286762474437
+    },
+    {
+      "budget": 5,
+      "count": 25,
+      "mean": 0.8426477754824789,
+      "model": "mlp",
+      "std": 0.07220546612011083
+    },
+    {
+      "budget": 10,
+      "count": 25,
+      "mean": 0.8427795494253116,
+      "model": "mlp",
+      "std": 0.07281366697405489
+    },
+    {
+      "budget": 20,
+      "count": 25,
+      "mean": 0.8419805082074098,
+      "model": "mlp",
+      "std": 0.07502804101321371
+    },
+    {
+      "budget": 30,
+      "count": 25,
+      "mean": 0.8433341314494527,
+      "model": "mlp",
+      "std": 0.07361573345329372
+    },
+    {
+      "budget": 0,
+      "count": 25,
+      "mean": 0.8520860393081108,
+      "model": "rf",
+      "std": 0.07732303899558758
+    },
+    {
+      "budget": 3,
+      "count": 25,
+      "mean": 0.849537560731862,
+      "model": "rf",
+      "std": 0.07385117654561599
+    },
+    {
+      "budget": 5,
+      "count": 25,
+      "mean": 0.8485975203232355,
+      "model": "rf",
+      "std": 0.07499380453597895
+    },
+    {
+      "budget": 10,
+      "count": 25,
+      "mean": 0.8480713300539046,
+      "model": "rf",
+      "std": 0.07810993160420689
+    },
+    {
+      "budget": 20,
+      "count": 25,
+      "mean": 0.8496391184658304,
+      "model": "rf",
+      "std": 0.07698814760729482
+    },
+    {
+      "budget": 30,
+      "count": 25,
+      "mean": 0.8505479322686006,
+      "model": "rf",
+      "std": 0.07709515967460884
+    }
+  ],
+  "perturbation_budgets": {
+    "boosted": 30,
+    "starved": 3
+  },
+  "reference_budget": 10,
+  "share_units_where_starving_the_reference_winner_loses_first_place": 0.32,
+  "units": 25
+}

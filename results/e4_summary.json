@@ -1,0 +1,286 @@
+{
+  "H4": {
+    "cross_environment_within_tolerance_share": [
+      0.96,
+      0.96
+    ],
+    "rule": "supported iff 100% of runs in every comparison are within the accuracy tolerance",
+    "verdict": "not supported"
+  },
+  "comparisons": {
+    "A1b_vs_A1": {
+      "bit_identical": 75,
+      "bit_identical_ci": [
+        0.9512761575171942,
+        1.0
+      ],
+      "bit_identical_share": 1.0,
+      "max_abs_accuracy_diff": 0.0,
+      "max_abs_logloss_diff": 0.0,
+      "mean_abs_accuracy_diff": 0.0,
+      "median_abs_logloss_diff": 0.0,
+      "n": 75,
+      "per_model": {
+        "hgb": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "lgbm": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "logreg": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "mlp": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "rf": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        }
+      },
+      "within_tolerance": 75,
+      "within_tolerance_ci": [
+        0.9512761575171942,
+        1.0
+      ],
+      "within_tolerance_share": 1.0
+    },
+    "A2_vs_A1": {
+      "bit_identical": 75,
+      "bit_identical_ci": [
+        0.9512761575171942,
+        1.0
+      ],
+      "bit_identical_share": 1.0,
+      "max_abs_accuracy_diff": 0.0,
+      "max_abs_logloss_diff": 0.0,
+      "mean_abs_accuracy_diff": 0.0,
+      "median_abs_logloss_diff": 0.0,
+      "n": 75,
+      "per_model": {
+        "hgb": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "lgbm": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "logreg": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "mlp": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "rf": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        }
+      },
+      "within_tolerance": 75,
+      "within_tolerance_ci": [
+        0.9512761575171942,
+        1.0
+      ],
+      "within_tolerance_share": 1.0
+    },
+    "B1_vs_A1": {
+      "bit_identical": 30,
+      "bit_identical_ci": [
+        0.2966251564586679,
+        0.5131196120378932
+      ],
+      "bit_identical_share": 0.4,
+      "max_abs_accuracy_diff": 0.03125,
+      "max_abs_logloss_diff": 0.01847653466231791,
+      "mean_abs_accuracy_diff": 0.0014068570318570325,
+      "median_abs_logloss_diff": 4.163336342344337e-17,
+      "n": 75,
+      "per_model": {
+        "hgb": {
+          "bit_identical": 0,
+          "max_abs_acc_diff": 0.03125,
+          "of": 15
+        },
+        "lgbm": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "logreg": {
+          "bit_identical": 0,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "mlp": {
+          "bit_identical": 0,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "rf": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        }
+      },
+      "within_tolerance": 72,
+      "within_tolerance_ci": [
+        0.8888701291759625,
+        0.9863039357398561
+      ],
+      "within_tolerance_share": 0.96
+    },
+    "B2_vs_A1": {
+      "bit_identical": 30,
+      "bit_identical_ci": [
+        0.2966251564586679,
+        0.5131196120378932
+      ],
+      "bit_identical_share": 0.4,
+      "max_abs_accuracy_diff": 0.03125,
+      "max_abs_logloss_diff": 0.01847653466231791,
+      "mean_abs_accuracy_diff": 0.0014068570318570325,
+      "median_abs_logloss_diff": 4.163336342344337e-17,
+      "n": 75,
+      "per_model": {
+        "hgb": {
+          "bit_identical": 0,
+          "max_abs_acc_diff": 0.03125,
+          "of": 15
+        },
+        "lgbm": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "logreg": {
+          "bit_identical": 0,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "mlp": {
+          "bit_identical": 0,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        },
+        "rf": {
+          "bit_identical": 15,
+          "max_abs_acc_diff": 0.0,
+          "of": 15
+        }
+      },
+      "within_tolerance": 72,
+      "within_tolerance_ci": [
+        0.8888701291759625,
+        0.9863039357398561
+      ],
+      "within_tolerance_share": 0.96
+    }
+  },
+  "environments": {
+    "A1": {
+      "env": "A",
+      "packages": {
+        "lightgbm": "4.7.0",
+        "numpy": "2.5.4",
+        "optuna": "5.0.0",
+        "pandas": "3.1.0",
+        "pyyaml": "6.0.3",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1"
+      },
+      "python": "3.12.13",
+      "threads": 1
+    },
+    "A1b": {
+      "env": "A",
+      "packages": {
+        "lightgbm": "4.7.0",
+        "numpy": "2.5.4",
+        "optuna": "5.0.0",
+        "pandas": "3.1.0",
+        "pyyaml": "6.0.3",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1"
+      },
+      "python": "3.12.13",
+      "threads": 1
+    },
+    "A2": {
+      "env": "A",
+      "packages": {
+        "lightgbm": "4.7.0",
+        "numpy": "2.5.4",
+        "optuna": "5.0.0",
+        "pandas": "3.1.0",
+        "pyyaml": "6.0.3",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1"
+      },
+      "python": "3.12.13",
+      "threads": 2
+    },
+    "B1": {
+      "env": "B",
+      "packages": {
+        "lightgbm": "4.3.0",
+        "numpy": "1.26.4",
+        "optuna": "not-installed",
+        "pandas": "2.1.4",
+        "pyyaml": "6.0.3",
+        "scikit-learn": "1.4.2",
+        "scipy": "1.12.0"
+      },
+      "python": "3.12.13",
+      "threads": 1
+    },
+    "B2": {
+      "env": "B",
+      "packages": {
+        "lightgbm": "4.3.0",
+        "numpy": "1.26.4",
+        "optuna": "not-installed",
+        "pandas": "2.1.4",
+        "pyyaml": "6.0.3",
+        "scikit-learn": "1.4.2",
+        "scipy": "1.12.0"
+      },
+      "python": "3.12.13",
+      "threads": 2
+    }
+  },
+  "grid": {
+    "datasets": [
+      "diabetes",
+      "qsar-biodeg",
+      "breast_cancer"
+    ],
+    "models": [
+      "logreg",
+      "rf",
+      "hgb",
+      "lgbm",
+      "mlp"
+    ],
+    "runs": 75,
+    "seeds": 5
+  },
+  "label": "two software environments on one machine (not different hardware)",
+  "tolerance_abs_accuracy": 0.01
+}

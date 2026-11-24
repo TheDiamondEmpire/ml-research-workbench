@@ -1,0 +1,29 @@
+{
+  "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD",
+  "cpu_load_percent_after": 100.0,
+  "cpu_load_percent_before": 78.0,
+  "environment": {
+    "implementation": "CPython",
+    "machine": "AMD64",
+    "packages": {
+      "lightgbm": "4.7.0",
+      "numpy": "2.5.4",
+      "optuna": "5.0.0",
+      "pandas": "3.1.0",
+      "pyyaml": "6.0.3",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13",
+    "threads": "1",
+    "uv_lock_sha256": "41b29602e5609d16c568cb5cc1a48433200c04f95883799baa8c813ab0fceac3"
+  },
+  "label": "e1",
+  "logical_cpus": 8,
+  "note": "Shared machine: other processes kept CPU utilisation high during the run; wall-clock timings are therefore not analysed.",
+  "ram_gb": 28.0,
+  "threads_per_worker": 1,
+  "wall_clock_minutes": 17.6,
+  "worker_processes": 2
+}
